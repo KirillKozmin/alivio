@@ -1,0 +1,123 @@
+* {
+    /* Убираем внешние отступы */
+    margin: 0;
+    /* Убираем внутренние отступы */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* .header__container обращение по классу */
+
+/* div Обращение по тегу */
+
+/* #id1{}  Обращение по id*/
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    /* Ьфксимальная ширина */
+    max-width: 1400px;
+    /* выравнивание по центру */
+    margin: 0 auto;
+}
+
+.btn {
+    /* внутренние отступы */
+    padding: 20px 50px;
+    /* рамка : тощина   заливка   цвет */
+    border: 1px solid #01996D;
+    /* закругдение границ */
+    border-radius: 4px;
+    /* задний фон */
+    background-color: #01996D;
+    /* цвет текста */
+    color: #fff;
+
+    width: max-content;
+}
+
+.header__start-btn {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+/* Header start */
+
+.header__container {
+    /* превращаем в флекс располагаем в одну линию*/
+    display: flex;
+    /* раскидываем по ширине */
+    justify-content: space-between;
+    /* выравниваем в одну линию */
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    gap: 72px;
+}
+
+header {
+    /* padding: 17px 0 17px 0; */
+    /* padding: 17px 0; */
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.header__sign-btn {
+    color: #000;
+    margin-right: 35px;
+}
+
+.header__nav a {
+    color: #292929;
+}
+
+/* Header end */
+
+/* Section first start */
+
+.section-first__container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    /* размер шрифта */
+    font-size: 65px;
+    /* толщина шрифта */
+    font-weight: 700;
+    color: #01996D;
+    font-family: Georgia, serif;
+}
+
+.section-first p {
+    color: #484848;
+    font-size: 20px;
+    font-weight: 400;
+    width: 420px;
+    margin-top: 30px;
+    margin-bottom: 53px;
+}
+
+.section-first {
+    background-image: url(./images/BG.png);
+    padding-top: 175px;
+    padding-bottom: 336px;
+}
+
+/* px vw vh % em rem - единицы измереения */
+
+
+/* Section first end */
